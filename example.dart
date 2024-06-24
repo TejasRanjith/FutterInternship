@@ -1,11 +1,29 @@
 void main() {
-  final result = summation(10, 20);
-  print(result);
+  OddEven(5);
+  OddEven(10);
+  OddEven(15);
+  OddEven(20);
 }
 
-int summation(int a, int b) {
-  return (a + b);
+void OddEven(int num) {
+  if (num%2==0) {
+    print("Even...\n");
+  }
+  else {
+    print("Odd...\n");
+  }
+
 }
+
+
+// void main() {
+//   final result = summation(10, 20);
+//   print(result);
+// }
+
+// int summation(int a, int b) {
+//   return (a + b);
+// }
 
 
 // void main() {
