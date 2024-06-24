@@ -1,11 +1,33 @@
 void main() {
-  // give a list of fruits
-  List<String> fruits = ['Apple', 'Banana', 'Orange', 'Grapes', 'Mango'];
-
-  for (String fruit in fruits) {
-    print(fruit);
-  }  // can also use length as a counter variable
+  final result = summation(10, 20);
+  print(result);
 }
+
+int summation(int a, int b) {
+  return (a + b);
+}
+
+
+// void main() {
+//   printGreetings();
+//   printGreetings();
+//   printGreetings();
+//   printGreetings();
+//   printGreetings();
+// }
+
+// void printGreetings() {
+//   print('Hello, World!');
+// }
+
+
+// void main() {
+//   List<String> cars = ['BMW', 'Audi', 'Mercedes', 'Toyota', 'Ford'];
+
+//   for (String car in cars) {
+//     print(car);
+//   }  // can also use length as a counter variable 
+// }
 
 
 // void main() {
