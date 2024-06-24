@@ -7,5 +7,5 @@ void main() {
   print(number2);
   String name = 'Tejas Ranjith';
   String letter = 'T';
-  print(name, letter);
+  print(name+letter);
 }
