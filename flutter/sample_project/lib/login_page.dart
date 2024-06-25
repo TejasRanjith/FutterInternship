@@ -18,8 +18,9 @@ class LoginScreen extends StatelessWidget {
                 color: Colors.white,
                 fontWeight: FontWeight.bold)),
         actions: [
-          // const Card(child:Padding(child:Icons.search, color: Colors.white60,),padding:EdgeInsets.only(right: 20.0)),
+          Icon(Icons.search, color: Colors.white60),
           Icon(Icons.more_vert, color: Colors.white60)
+          
         ],
       ),
       body: ListView(
