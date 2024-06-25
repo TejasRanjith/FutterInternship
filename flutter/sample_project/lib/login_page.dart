@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
           Icon(Icons.more_vert, color: Colors.white60)
         ],
       ),
-      body: Column(
+      body: ListView(
         // mainAxisAlignment: MainAxisAlignment.center,
         // crossAxisAlignment: CrossAxisAlignment.center,
         // children: [
@@ -248,6 +248,267 @@ class LoginScreen extends StatelessWidget {
               ],
               mainAxisAlignment: MainAxisAlignment.center,
               )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai999",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+          ListTile(
+              leading: Icon(
+                Icons.person,
+                size: 40,
+              ),
+              title: Text("TejaBhai979",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              subtitle: Text("Hey there! I am using WhatsApp"),
+              trailing: Column(children: [
+                Text(
+                  "10:00 AM",
+                  style: TextStyle(
+                      color: Colors.green.shade400,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
+                ),
+                CircleAvatar(radius: 14,backgroundColor: Colors.green,child:Text(
+                  "1",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
+                ))
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+              )),
+            
           
         ],
       ),
