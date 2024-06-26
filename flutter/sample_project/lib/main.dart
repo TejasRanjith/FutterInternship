@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import "package:sample_project/login%20copy.dart";
+import "package:sample_project/login.dart";
+import "image_screen.dart";
 import "container.dart";
 
 void main() {
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginScreen()
+      home: Login(),
     );
   }
 }

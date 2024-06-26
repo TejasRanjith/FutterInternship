@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -73,36 +74,64 @@ class LoginScreen extends StatelessWidget {
         // ),
         body: Center(
           child: Container(
-              child: Row(
+              child: Column(
                 children: [
                   Container(
-                    width: 192,
-                    height: 383,
+                    child: Center(
+                        child: Text(
+                      "LAB RULES",
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                    )),
+                    width: 383,
+                    height: 60,
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         border: Border.all(
-                          color: Colors.green,
+                          color: Colors.blue,
                           width: 8,
                         )),
                   ),
                   Container(
-                    width: 192,
-                    height: 383,
+                    width: 383,
+                    height: 524,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("1. Be in Lab before 9:00 AM\n",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold)),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                          Text("ME:",style: TextStyle(fontSize: 30),),
+                          Image(
+                            image: NetworkImage(
+                                "https://carwow-uk-wp-3.imgix.net/18015-MC20BluInfinito-scaled-e1707920217641.jpg"),
+                            width: 300,
+                          ),
+                        ]),
+                      ],
+                    ),
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         border: Border.all(
-                          color: Colors.red,
+                          color: Colors.blue,
                           width: 8,
                         )),
                   ),
                 ],
               ),
               width: 400,
-              height: 400,
+              height: 600,
               decoration: BoxDecoration(
                 color: Colors.blue,
                 border: Border.all(
-                  color: Colors.yellow,
+                  color: Colors.blue,
                   width: 8,
                 ),
                 borderRadius: BorderRadius.circular(20),
