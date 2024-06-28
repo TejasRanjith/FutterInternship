@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import "package:sample_project/login%20copy.dart";
 import "package:sample_project/login.dart";
 import "package:sample_project/login_page_telegram.dart";
+import "package:sample_project/register.dart";
 import "image_screen.dart";
 import "container.dart";
 
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginScreenTelegram(),
+      home: RegisterForm(),
     );
   }
 }

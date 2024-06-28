@@ -103,8 +103,10 @@ class _GoogleLoginState extends State<GoogleLogin> {
                                     builder: (context) => ImageScreen()));
                           },
                           child: (Text("Login"))),
-                    )
-                  ]))
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
