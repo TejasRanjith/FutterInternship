@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> addDataTO(bool isLogedIn) async{
@@ -16,5 +18,5 @@ bool? data = prefs.getBool("isUserLogedIn");
 
 data??=false;
 
-return data;
-} 
+return data; 
+}

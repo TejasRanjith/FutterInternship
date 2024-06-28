@@ -1,10 +1,16 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:statefull_project/functions.dart';
 import 'package:statefull_project/test.dart';
+import 'package:statefull_project/whatsapp.dart';
 
 bool cond = true;
 bool reset = false;
+String user = "Tejas";
+String pass = "1234";
+final usercmd = TextEditingController();
+final passcmd = TextEditingController();
 
 class GoogleLogin extends StatefulWidget {
   const GoogleLogin({super.key});
@@ -46,33 +52,35 @@ class _GoogleLoginState extends State<GoogleLogin> {
                 ),
               ),
               Container(
-                  alignment: Alignment.centerRight,
-                  color: Colors.white,
-                  child: Column(children: [
+                alignment: Alignment.centerRight,
+                color: Colors.white,
+                child: Column(
+                  children: [
                     Padding(
                         padding: EdgeInsets.only(top: 140, left: 20, right: 20),
                         child: TextField(
-
+                          controller: usercmd,
                           decoration: InputDecoration(
-                            hintText: "What's your name ?",
-                            labelText: "Name",
-                            labelStyle: TextStyle(fontSize: 20),
-                            border: OutlineInputBorder(),
-                            prefixIcon: Icon(Icons.portrait),
-                            suffixIcon: IconButton(icon:reset
-                            ? Icon(Icons.replay_outlined)
-                            : Icon(Icons.replay_outlined),
-                            onPressed: () {
-                              setState(() {
-                                ;
-                              });
-                            },
-                            )
-                          ),
+                              hintText: "What's your name ?",
+                              labelText: "Name",
+                              labelStyle: TextStyle(fontSize: 20),
+                              border: OutlineInputBorder(),
+                              prefixIcon: Icon(Icons.portrait),
+                              suffixIcon: IconButton(
+                                icon: reset
+                                    ? Icon(Icons.replay_outlined)
+                                    : Icon(Icons.replay_outlined),
+                                onPressed: () {
+                                  setState(() {
+                                    ;
+                                  });
+                                },
+                              )),
                         )),
                     Padding(
                       padding: EdgeInsets.only(top: 30, left: 20, right: 20),
                       child: TextField(
+                        controller: passcmd,
                         obscureText: cond,
                         decoration: InputDecoration(
                           prefixIcon: Icon(Icons.lock),
@@ -96,11 +104,20 @@ class _GoogleLoginState extends State<GoogleLogin> {
                     Padding(
                       padding: const EdgeInsets.only(top: 20.0),
                       child: ElevatedButton(
-                          onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => ImageScreen()));
+                          onPressed: () async {
+                            if (usercmd.text == user && passcmd.text == pass) {
+                              addDataTO(true);
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Whatsapp()));
+                            } else {
+                              addDataTO(false);
+                              ScaffoldMessenger.of(context)
+                                  .showSnackBar(SnackBar(
+                                content: Text("Invalid Credentials"),
+                              ));
+                            }
                           },
                           child: (Text("Login"))),
                     ),
