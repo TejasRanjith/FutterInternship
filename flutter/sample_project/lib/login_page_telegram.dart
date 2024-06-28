@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class LoginScreenTelegram extends StatelessWidget {
+  const LoginScreenTelegram({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +20,7 @@ class LoginScreen extends StatelessWidget {
         actions: [
           Icon(Icons.search, color: Colors.white60),
         ],
+        
       ),
       body: ListView(
           // mainAxisAlignment: MainAxisAlignment.center,
